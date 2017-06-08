@@ -23,9 +23,6 @@ include_directories ( "../inc")
 # Собираем исходные файлы программы
 aux_source_directory( ../src SOURCES )
 
-link_directories("/usr/local/lib"
- 				"/usr/local/include")
-				
 # Указываем путь к исполнеямому файлу
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 

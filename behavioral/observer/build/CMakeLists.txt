@@ -12,7 +12,7 @@ set ( CMAKE_CXX_STANDARD_REQUIRED on )
 set ( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14" )
 
 # Устанавливаем значение переменной PROJECT
-set ( PROJECT singleton )
+set ( PROJECT observer )
 
 # Имя проекта
 project ( ${PROJECT} )
