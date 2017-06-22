@@ -6,7 +6,7 @@
 #include <functional>
 #include <memory>
 
-template <typename... Args>
+template <class... Args>
 class event;
 
 template<>

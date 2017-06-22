@@ -20,6 +20,7 @@ singleton * singleton::get_instance() noexcept
 void singleton::delete_instance() noexcept
 {
 	delete instance_;
+	instance_ = nullptr;
 }
 
 void singleton::print(const std::string& str) noexcept

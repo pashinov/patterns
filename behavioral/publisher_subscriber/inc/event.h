@@ -8,7 +8,7 @@
 #include <memory>
 #include <cstdint>
 
-template <typename... Args>
+template <class... Args>
 class event
 {
 public:
